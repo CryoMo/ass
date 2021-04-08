@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Text?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.gbookController">
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <AnchorPane prefHeight="555.0" prefWidth="686.0">
+         <children>
+            <ListView fx:id="gBookVeiw" layoutX="14.0" layoutY="14.0" prefHeight="555.0" prefWidth="425.0" />
+            <Text layoutX="470.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select Student to View Average" wrappingWidth="201.9830722808838" />
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>
